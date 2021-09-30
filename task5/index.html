@@ -70,6 +70,7 @@
         value="17"
       />
       <textarea
+      class="form-control"
         name="story"
         cols="30"
         rows="5"
@@ -81,10 +82,10 @@
         name="password"
         value="secret"
       />
-      <div class="language">
-          <input type="radio" name="language" value="html">HTML
-          <input type="radio" name="language" value="css" checked>CSS
-          <input type="radio" name="language" value="javascript">JavaScript
+      <div class="language form-control">
+        <input type="radio" name="language" value="html" />HTML
+        <input type="radio" name="language" value="css" checked />CSS
+        <input type="radio" name="language" value="javascript" />JavaScript
       </div>
       <input
         class="form-control"
@@ -92,10 +93,10 @@
         name="learningProgress"
         value="30"
       />
-      <select name="framework">
-          <option value="react">React</option>
-          <option value="jquery">jQuery</option>
-          <option value="bootstrap">Bootstrap</option>
+      <select class="form-control" name="framework">
+        <option value="jquery">jQuery</option>       
+        <option value="react">React</option>
+        <option value="bootstrap">Bootstrap</option>
       </select>
       <input
         class="form-control"
@@ -103,12 +104,7 @@
         name="search"
         placeholder="Type first letters..."
       />
-      <input
-        class="form-control"
-        type="time"
-        name="lunchEnd"
-        value="14:01"
-      />
+      <input class="form-control" type="time" name="lunchEnd" value="14:01" />
       <input
         class="form-control"
         type="url"
@@ -117,12 +113,12 @@
         required
       />
       <input
-      class="form-control"
-      type="week"
-      name="birthWeek"
-      value="2021-W51"
-    />
-    <button type="submit">Save</button>
+        class="form-control"
+        type="week"
+        name="birthWeek"
+        value="2021-W51"
+      />
+      <button class="form-control" type="submit">Save</button>
     </form>
   </body>
 </html>
