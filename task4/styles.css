@@ -13,8 +13,12 @@ body{
    font-size: 16px;
    font-family: monospace;
    width: 300px;
-   padding: 16px;
+   /* padding: 16px; */
    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.form-control{
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .form-title{
     text-transform: uppercase;
@@ -37,11 +41,13 @@ body{
     margin-bottom: 4px;
 }
 .submit-button{
+    padding-left: 16px;
+    padding-right: 16px;
     display: block;
-    width: 100%;
+    width: 268px;
     height: 32px;
     background-color: #ff7f50;
-    margin-top: 16px;
+    margin: 16px;
     text-transform: uppercase;
     color: #ffffff;
     border-radius: 4px;
