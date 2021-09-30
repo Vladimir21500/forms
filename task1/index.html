@@ -12,34 +12,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-      <form>
-         <div class="form-control">
-             <input type="text" name="lastName" value="Emerson">
-         </div>
-         <div class="form-control">
-            <input type="number" name="age" value="17">
-        </div>
-        <div class="form-control">
-            <label for="agree-checkbox-form">Accept terms and conditions </label>
-            <input id="agree-checkbox-form" type="checkbox" name="agree" value="17">
-        </div>
-        <div class="form-control choose-gender">
-            <input id="male-choose-gender" type="radio" name="gender" checked>
-            <label for="male-choose-gender">Male</label>  
-            <input id="female-choose-gender" type="radio" name="gender">
-            <label for="female-choose-gender">Female</label>  
-            <input id="secret-choose-gender" type="radio" name="gender">
-            <label for="secret-choose-gender">Secret</label> 
-        </div>
-        <div class="form-control">
-            <textarea name="description" placeholder="Write description..."></textarea>
-        </div>
-        <div class="form-control">
-            <button type="submit">Submit</button>
-        </div>
-      </form>
+    <form>
+      <div class="form-control">
+        <input type="text" name="lastName" value="Emerson" />
+      </div>
+      <div class="form-control">
+        <input type="number" name="age" value="17" />
+      </div>
+      <div class="form-control">
+        <input
+          id="agree-checkbox-form"
+          type="checkbox"
+          name="agree"
+          value="17"
+        />
+        <label for="agree-checkbox-form">Accept terms and conditions </label>
+      </div>
+      <div class="form-control choose-gender">
+        <input id="male-choose-gender" type="radio" name="gender" checked />
+        <label for="male-choose-gender">Male</label>
+        <input id="female-choose-gender" type="radio" name="gender" />
+        <label for="female-choose-gender">Female</label>
+        <input id="secret-choose-gender" type="radio" name="gender" />
+        <label for="secret-choose-gender">Secret</label>
+      </div>
+      <div class="form-control">
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div class="form-control">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
