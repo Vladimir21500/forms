@@ -1,0 +1,23 @@
+.checkbox-container{
+    position: relative;
+    padding-left: 35px;
+    font-size: 24px;
+    margin: 16px;
+}
+.checkbox {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+}
+.custom-checkbox{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #d3d3d3;
+    left: 0;
+    top: 0;
+}
+.checkbox:checked  + .custom-checkbox{
+    background-color: #006400;
+}
