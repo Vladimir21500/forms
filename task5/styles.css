@@ -1,10 +1,10 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.form{
-    margin: 32px;
+.form {
+  margin: 32px;
 }
-.form-control{
-    display: block;
-    margin: 8px;
+
+div {
+  margin: 8px;
 }
